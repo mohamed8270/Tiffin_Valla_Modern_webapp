@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Feature from './components/Feature'
 import Reason from './components/Reason'
 import Order from './components/Order'
+import Download from './components/Download'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Feature/>
       <Reason/>
       <Order/>
+      <Download/>
     </div>
   );
 }
