@@ -1,7 +1,7 @@
 import React from 'react'
 import profile from '../assets/tiffin.png'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
 
@@ -10,8 +10,18 @@ const Navbar = () => {
     setNav(!nav)
     }
 
+    const [top, setTop] = useState(true);
+
+    useEffect(() => {
+    const scrollHandler = () => {
+    window.pageYOffset > 10 ? setTop(false) : setTop(true)
+    };
+    window.addEventListener('scroll', scrollHandler);
+    return () => window.removeEventListener('scroll', scrollHandler);
+    }, [top]);
+
   return (
-    <div className='bg-white h-[80px] w-full mx-auto'>
+    <div className={`bg-white h-[80px] w-full mx-auto fixed z-50 flex-wrap ${!top && `bg-white shadow-xl`}`}>
         <div className='items-center md:mx-[60px] mx-[0px] h-[80px] flex justify-between justify-item-center'>
             <div className='flex items-center'>
                 <img class="ring ring-primary ring-offset-base-100 ring-offset-2 ring-[#323232] w-12 h-12 md:ml-0 ml-5 rounded-full bg-[#FFCE54] ring-opacity-[10%]" src={profile} alt="Rounded avatar"/>

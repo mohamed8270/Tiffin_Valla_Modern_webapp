@@ -4,7 +4,7 @@ import { IoIosTimer, IoIosList, IoIosPeople, IoMdDoneAll } from "react-icons/io"
 
 const Reason = () => {
   return (
-    <div className='md:pt-[10px] pt-[0px] md:h-[500px] w-screen h-[750px] bg-white items-center justify-center justify-items-center'>
+    <div className='md:pt-[10px] pt-[0px] md:h-[400px] w-screen h-[750px] bg-white items-center justify-center justify-items-center'>
         <div className='grid md:grid-cols-2 grid-cols-1 items-center justify-items-center md:px-[60px] px-[0px]'>
             <div className='grid grid-rows-2 items-center md:w-[550px] w-screen md:pl-[0px] pl-[10px]'>
                 <h1 className='font-poppins font-bold md:text-[32px] text-[16px] text-[#323232]'>A very simple process to make order your favorite foods from your Local</h1>

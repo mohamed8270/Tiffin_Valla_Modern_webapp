@@ -5,6 +5,7 @@ import Feature from './components/Feature'
 import Reason from './components/Reason'
 import Order from './components/Order'
 import Download from './components/Download'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Reason/>
       <Order/>
       <Download/>
+      <Footer/>
     </div>
   );
 }

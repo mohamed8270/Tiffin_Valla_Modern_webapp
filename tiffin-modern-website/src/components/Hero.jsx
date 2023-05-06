@@ -7,7 +7,7 @@ import tiffinbox from '../assets/tiffinbox.png'
 const Hero = () => {
   return (
     <div className='bg-white md:mx-[60px] mx-[10px] flex items-center justify-items-center'>
-      <div className='grid md:grid-cols-2 grid-cols-1 items-center justify-items-center md:ml-[130px] ml-[0px] md:pt-[40px] pt-[0px]'>
+      <div className='grid md:grid-cols-2 grid-cols-1 items-center justify-items-center md:ml-[130px] ml-[0px] md:pt-[120px] pt-[60px]'>
         <div className='grid grid-rows-5 justify-center h-[500px] items-center'>
           <h1 className='font-poppins text-[#323232] md:text-[44px] text-[28px] font-bold md:pb-[40px] pb-[5px]'>Fastest Online</h1>
           <h1 className='font-poppins text-[#323232] md:text-[44px] text-[28px] font-bold pb-[140px]'>Food Delivery Service</h1>
