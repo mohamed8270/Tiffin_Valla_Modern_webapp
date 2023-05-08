@@ -23,15 +23,15 @@ const Hero = () => {
               </div>
           </form>
           <div className='grid grid-cols-3 justify-items-center md:mb-[0px] mb-[80px]'>
-            <div className='md:h-[160px] md:w-[160px] h-[100px] w-[100px] bg-white shadow-lg mb-[60px] grid grid-rows-2 items-center justify-items-center rounded-2xl'>
+            <div className='md:h-[160px] md:w-[160px] h-[100px] w-[100px] bg-white shadow-lg mb-[60px] grid grid-rows-2 items-center justify-items-center rounded-2xl hover:scale-110 transition duration-300 ease-in-out'>
               <img src={rating} alt='/' className='md:h-[60px] md:w-[60px] h-[30px] w-[30px]'/>
               <div className='font-poppins md:text-[16px] text-[10px] text-[#323232] font-bold text-center'>15K Ratings<br/>(4.8)</div>
             </div>
-            <div className='md:h-[160px] md:w-[160px] h-[100px] w-[100px] bg-white shadow-lg mb-[60px] grid grid-rows-2 items-center justify-items-center rounded-2xl'>
+            <div className='md:h-[160px] md:w-[160px] h-[100px] w-[100px] bg-white shadow-lg mb-[60px] grid grid-rows-2 items-center justify-items-center rounded-2xl hover:scale-110 transition duration-300 ease-in-out'>
               <img src={spoon} alt='/' className='md:h-[60px] md:w-[60px] h-[30px] w-[30px]'/>
               <div className='font-poppins md:text-[16px] text-[10px] text-[#323232] font-bold text-center'>3000+<br/>Restaurants</div>
             </div>
-            <div className='md:h-[160px] md:w-[160px] h-[100px] w-[100px] bg-white shadow-lg mb-[60px] grid grid-rows-2 items-center justify-items-center rounded-2xl'>
+            <div className='md:h-[160px] md:w-[160px] h-[100px] w-[100px] bg-white shadow-lg mb-[60px] grid grid-rows-2 items-center justify-items-center rounded-2xl hover:scale-110 transition duration-300 ease-in-out'>
               <img src={tiffinbox} alt='/' className='md:h-[80px] md:w-[80px] h-[40px] w-[40px]'/>
               <div className='font-poppins md:text-[16px] text-[10px] text-[#323232] font-bold text-center'>9000+<br/>Food Items</div>
             </div>
