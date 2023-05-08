@@ -5,7 +5,7 @@ import image07 from '../assets/appstore.png'
 
 const Download = () => {
   return (
-    <div className='md:h-[400px] h-[800px] bg-white'>
+    <div className='md:h-[400px] h-[500px] bg-white'>
         <div className='grid md:grid-cols-2 grid-cols-1 items-center justify-items-center pt-[60px] md:pl-[140px] pl-[10px]'>
           <div className='grid grid-rows-3 items-center'>
             <h1 className='font-poppins text-[#323232] md:text-[38px] text-[24px] font-bold'>It's Now More Easy to Order by Our Mobile App</h1>

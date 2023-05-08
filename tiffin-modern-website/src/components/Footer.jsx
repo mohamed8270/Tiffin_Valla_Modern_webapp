@@ -11,21 +11,21 @@ const Footer = () => {
         <img class=" w-20 h-20 ml-7 rounded-full bg-[#FFCE54] ring-opacity-[10%]" src={profile} alt="Rounded avatar"/>
         <div className='grid grid-rows-4'>
             <h1 className='text-[16px] font-poppins font-medium text-[#323232] mb-[25px]'>Company</h1>
-            <p className='text-[12px] font-poppins font-regular text-[#323232] text-opacity-[60%] mb-[15px]'>About us</p>
-            <p className='text-[12px] font-poppins font-regular text-[#323232] text-opacity-[60%] mb-[15px]'>Team</p>
-            <p className='text-[12px] font-poppins font-regular text-[#323232] text-opacity-[60%] mb-[15px]'>Blog</p>
+            <p className='text-[12px] font-poppins font-regular text-[#323232] text-opacity-[60%] mb-[15px] hover:text-[#323232] hover:font-medium'>About us</p>
+            <p className='text-[12px] font-poppins font-regular text-[#323232] text-opacity-[60%] mb-[15px] hover:text-[#323232] hover:font-medium'>Team</p>
+            <p className='text-[12px] font-poppins font-regular text-[#323232] text-opacity-[60%] mb-[15px] hover:text-[#323232] hover:font-medium'>Blog</p>
         </div>
         <div className='grid grid-rows-4 md:pl-[0px] pl-[20px]'>
             <h1 className='text-[16px] font-poppins font-medium text-[#323232] mb-[25px]'>Contact us</h1>
-            <p className='text-[12px] font-poppins font-regular text-[#323232] text-opacity-[60%] mb-[15px]'>Help & Support</p>
-            <p className='text-[12px] font-poppins font-regular text-[#323232] text-opacity-[60%] mb-[15px]'>Location</p>
-            <p className='text-[12px] font-poppins font-regular text-[#323232] text-opacity-[60%] mb-[15px]'>Partner with us</p>
+            <p className='text-[12px] font-poppins font-regular text-[#323232] text-opacity-[60%] mb-[15px] hover:text-[#323232] hover:font-medium'>Help & Support</p>
+            <p className='text-[12px] font-poppins font-regular text-[#323232] text-opacity-[60%] mb-[15px] hover:text-[#323232] hover:font-medium'>Location</p>
+            <p className='text-[12px] font-poppins font-regular text-[#323232] text-opacity-[60%] mb-[15px] hover:text-[#323232] hover:font-medium'>Partner with us</p>
         </div>
         <div className='grid grid-rows-4'>
             <h1 className='text-[16px] font-poppins font-medium text-[#323232] mb-[25px]'>Learn more</h1>
-            <p className='text-[12px] font-poppins font-regular text-[#323232] text-opacity-[60%] mb-[15px]'>Privacy</p>
-            <p className='text-[12px] font-poppins font-regular text-[#323232] text-opacity-[60%] mb-[15px]'>Security</p>
-            <p className='text-[12px] font-poppins font-regular text-[#323232] text-opacity-[60%] mb-[15px]'>Terms</p>
+            <p className='text-[12px] font-poppins font-regular text-[#323232] text-opacity-[60%] mb-[15px] hover:text-[#323232] hover:font-medium'>Privacy</p>
+            <p className='text-[12px] font-poppins font-regular text-[#323232] text-opacity-[60%] mb-[15px] hover:text-[#323232] hover:font-medium'>Security</p>
+            <p className='text-[12px] font-poppins font-regular text-[#323232] text-opacity-[60%] mb-[15px] hover:text-[#323232] hover:font-medium'>Terms</p>
         </div>
         <div className='grid grid-rows-3 md:pl-[0px] pl-[20px]'>
             <h1 className='text-[16px] font-poppins font-medium text-[#323232] mb-[25px]'>Socials</h1>

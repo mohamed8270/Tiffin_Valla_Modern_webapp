@@ -27,7 +27,7 @@ const Reason = () => {
                     </div>
                 </div>
             </div>
-            <img src={image02} alt='/' className='md:h-[450px] h-[350px] bg-white rounded-3xl'/>
+            <img src={image02} alt='/' className='md:h-[450px] h-[350px] bg-white rounded-3xl hover:scale-110 transition duration-300 ease-in-out'/>
         </div>
     </div>
   )

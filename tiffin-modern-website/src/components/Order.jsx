@@ -3,9 +3,9 @@ import image04 from '../assets/img04.png'
 
 const Order = () => {
   return (
-    <div className='pt-[80px]'>
+    <div className='md:pt-[80px] pt-[20px]'>
        <div class='md:h-[500px] h-[750px] w-screen bg-white grid md:grid-cols-2 grid-cols-1 items-center justify-items-center md:px-[20px] px-[10px]'>
-          <img src={image04} alt='/' className='md:h-[450px] h-[350px] bg-white rounded-3xl' />
+          <img src={image04} alt='/' className='md:h-[450px] h-[350px] bg-white rounded-3xl hover:scale-110 transition duration-300 ease-in-out' />
           <div className='grid md:grid-rows-2 grid-rows-1 items-center'>
             <h1 className='md:text-[32px] text-[16px] text-[#323232] font-poppins font-bold pb-[30px] md:pb-[0px] md:w-[600px] w-[px]'>Get major advantages by selecting variuos plans in our app and Enjoy! the delicious Indian Foods without any delay</h1>
             <div className='grid grid-cols-3'>
